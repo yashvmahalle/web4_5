@@ -1,0 +1,432 @@
+<html></html>
+ <head>
+  <title>
+   Innovation Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        header nav ul li {
+            display: inline;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        header .cta {
+            background-color: #00c853;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://placehold.co/1920x600') no-repeat center center;
+            background-size: cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .hero .btn {
+            background-color: #00c853;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .section .icons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .section .icons .icon {
+            text-align: center;
+        }
+        .section .icons .icon img {
+            width: 80px;
+            height: 80px;
+        }
+        .portfolio {
+            background-color: #fff;
+            padding: 60px 20px;
+        }
+        .portfolio .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .portfolio .grid .card {
+            background-color: #f5f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .portfolio .grid .card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .team {
+            padding: 60px 20px;
+        }
+        .team .members {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .team .members .member {
+            text-align: center;
+        }
+        .team .members .member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .team .members .member h3 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .team .members .member p {
+            font-size: 16px;
+            color: #666;
+        }
+        .contact {
+            background-color: #333;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: #00c853;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer .container .links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+        }
+        footer .container .links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        footer .container .social {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer .container .social a {
+            color: #fff;
+            font-size: 24px;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="logo">
+     Logo
+    </div>
+    <nav>
+     <ul>
+      <li>
+       <a href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Services
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Portfolio
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <a class="cta" href="#">
+     Get Started
+    </a>
+   </div>
+  </header>
+  <section class="hero">
+   <h1>
+    Your Innovation, Our Fuel
+   </h1>
+   <p>
+    We help you bring your ideas to life with our innovative solutions and expert team.
+   </p>
+   <a class="btn" href="#">
+    Learn More
+   </a>
+  </section>
+  <section class="section">
+   <h2>
+    Why Choose Us?
+   </h2>
+   <p>
+    We provide top-notch services to help you achieve your goals.
+   </p>
+   <div class="icons">
+    <div class="icon">
+     <img alt="Icon 1" height="80" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-UCplkowxSYDJx1KiBmUJqGJJ.png?st=2024-09-21T17%3A28%3A18Z&amp;se=2024-09-21T19%3A28%3A18Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A12%3A50Z&amp;ske=2024-09-21T23%3A12%3A50Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=xkj6TP/vULjk61dt0T2VCDeMNAY9mOPGNWpUyPTeoEQ%3D" width="80"/>
+     <p>
+      Quality Service
+     </p>
+    </div>
+    <div class="icon">
+     <img alt="Icon 2" height="80" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-eZMKjGEGkW2dYZXCxNWavOM5.png?st=2024-09-21T17%3A28%3A24Z&amp;se=2024-09-21T19%3A28%3A24Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-21T00%3A57%3A16Z&amp;ske=2024-09-22T00%3A57%3A16Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=Wo23ETePFiOaetl%2B855obTL4i/CtDDw1MINB9EWzfwM%3D" width="80"/>
+     <p>
+      Expert Team
+     </p>
+    </div>
+    <div class="icon">
+     <img alt="Icon 3" height="80" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-SRnkIb4A35esX123mdN4Gh8h.png?st=2024-09-21T17%3A28%3A19Z&amp;se=2024-09-21T19%3A28%3A19Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-21T02%3A25%3A55Z&amp;ske=2024-09-22T02%3A25%3A55Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=cU1UD7bcq8ot9IjccmpYp2Cq00wG%2BhE3YJzN6%2B5DfSM%3D" width="80"/>
+     <p>
+      Innovative Solutions
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="portfolio">
+   <h2>
+    Our Selected Portfolio
+   </h2>
+   <div class="grid">
+    <div class="card">
+     <img alt="Portfolio 1" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-crY9DTTlBSaQ3jXqwgypkRFZ.png?st=2024-09-21T17%3A28%3A23Z&amp;se=2024-09-21T19%3A28%3A23Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A20%3A32Z&amp;ske=2024-09-21T23%3A20%3A32Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=GkCnRmH%2BDgtppWIk/coBf8UZrSgmxTE4mfnE3i6%2Bj5o%3D" width="100"/>
+     <p>
+      Project 1
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 2" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-RbGG4Ych1a7jrtFctV8To7r8.png?st=2024-09-21T17%3A28%3A19Z&amp;se=2024-09-21T19%3A28%3A19Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A22%3A47Z&amp;ske=2024-09-21T23%3A22%3A47Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=uGBY0fWwx16z2MR0DyUQ79845nAWXuiFM1BZP14QToE%3D" width="100"/>
+     <p>
+      Project 2
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 3" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-BdZFFjStZChek8e7vW3pKy3i.png?st=2024-09-21T17%3A28%3A21Z&amp;se=2024-09-21T19%3A28%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-21T00%3A20%3A16Z&amp;ske=2024-09-22T00%3A20%3A16Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=a%2BKFINUYUULLbqyHhoh7cljvXYr%2BS%2BJTbBC8/6saP5w%3D" width="100"/>
+     <p>
+      Project 3
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 4" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-PCutKMvNMAFpQTjglHvO6JOz.png?st=2024-09-21T17%3A28%3A21Z&amp;se=2024-09-21T19%3A28%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A36%3A33Z&amp;ske=2024-09-21T23%3A36%3A33Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=A28VSjW%2BCPbXiuuPYG0rJDiPy6jL4Y14WADWWklXt%2Bk%3D" width="100"/>
+     <p>
+      Project 4
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 5" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-yUPTgY84ZqCifNytkiiF7qPm.png?st=2024-09-21T17%3A28%3A26Z&amp;se=2024-09-21T19%3A28%3A26Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A27%3A22Z&amp;ske=2024-09-21T23%3A27%3A22Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=POVrjXR3wWqBgY6tt8BphAZgvNbnA6cdg/QIp3KJsA8%3D" width="100"/>
+     <p>
+      Project 5
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 6" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-8IATTWyQ2wCkqWcUQqH5f1DZ.png?st=2024-09-21T17%3A28%3A22Z&amp;se=2024-09-21T19%3A28%3A22Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A16%3A24Z&amp;ske=2024-09-21T23%3A16%3A24Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=gWACmlEGNURl82oULbitMzXcVcyGA6/scs3zhfEl7rE%3D" width="100"/>
+     <p>
+      Project 6
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 7" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-peCLf4yAmosjhjrnKXMaOS0d.png?st=2024-09-21T17%3A28%3A21Z&amp;se=2024-09-21T19%3A28%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A14%3A09Z&amp;ske=2024-09-21T23%3A14%3A09Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=PDzfS0ssVlGN6OO1mLZeQ%2BiH7HDpW1sOAzcpBvHxCzc%3D" width="100"/>
+     <p>
+      Project 7
+     </p>
+    </div>
+    <div class="card">
+     <img alt="Portfolio 8" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-ANLMIlbm4NEmmgFSpJ8bq3cQ.png?st=2024-09-21T17%3A28%3A24Z&amp;se=2024-09-21T19%3A28%3A24Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A12%3A29Z&amp;ske=2024-09-21T23%3A12%3A29Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=Dfl53yn%2BwLuFynOII0Nk3vVBVBdTO589IeOIUF4FXHY%3D" width="100"/>
+     <p>
+      Project 8
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="team">
+   <h2>
+    Our Team of Experts
+   </h2>
+   <div class="members">
+    <div class="member">
+     <img alt="Team Member 1" src="https://placehold.co/150x150"/>
+     <h3>
+      John Doe
+     </h3>
+     <p>
+      CEO
+     </p>
+    </div>
+    <div class="member">
+     <img alt="Team Member 2" height="150" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-CqPPEjFrfTBaOeucrDXHuFlk.png?st=2024-09-21T17%3A28%3A21Z&amp;se=2024-09-21T19%3A28%3A21Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A34%3A16Z&amp;ske=2024-09-21T23%3A34%3A16Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=DJ//Ia5MP7vwpa4mB1EhXm3oTpSX%2BRSfNnKYAVTwQoY%3D" width="150"/>
+     <h3>
+      Jane Smith
+     </h3>
+     <p>
+      CTO
+     </p>
+    </div>
+    <div class="member">
+     <img alt="Team Member 3" height="150" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-sfXmLQw8Coz8HRkpNj1HKcuU.png?st=2024-09-21T17%3A28%3A20Z&amp;se=2024-09-21T19%3A28%3A20Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-20T23%3A10%3A51Z&amp;ske=2024-09-21T23%3A10%3A51Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=kkwmLwulcXmZVFuB8PeSGr/lVyqCp0W/vyR6sUou8bI%3D" width="150"/>
+     <h3>
+      Mike Johnson
+     </h3>
+     <p>
+      COO
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="contact">
+   <h2>
+    Contact Us
+   </h2>
+   <p>
+    We would love to hear from you. Please fill out the form below to get in touch.
+   </p>
+   <form>
+    <input placeholder="Your Name" type="text"/>
+    <input placeholder="Your Email" type="email"/>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">
+     Send Message
+    </button>
+   </form>
+  </section>
+  <footer>
+   <div class="container">
+    <div class="links">
+     <a href="#">
+      Privacy Policy
+     </a>
+     <a href="#">
+      Terms of Service
+     </a>
+     <a href="#">
+      Contact
+     </a>
+    </div>
+    <div class="social">
+     <a href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+    <p>
+     © 2023 Your Company. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
